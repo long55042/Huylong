@@ -1,0 +1,45 @@
+@charset "utf-8";
+.bg-gray{
+    background-color: white;
+}
+.bg-darkblue{
+     background-color: green;
+}
+.background-color{
+    background-color: lightpink;
+}
+a{
+    color: white;
+}
+li:hover{
+background-color: rgb(71, 255, 154);
+}
+.carousel-inner{
+         float: left;
+}
+.vung3{
+  border: 1px solid rgb(158, 157, 157);
+}
+.vung3 img{
+    height: 100px; width: 100px;
+    border-radius: 50%;
+}
+.vung3 h3{
+    width: 188px;
+}
+.vung3 p{
+    color: green;
+}
+h3{
+    float: right;
+    font-size: 20px;
+    margin-right: 40px;
+}
+h2{
+    font-size: 20px;
+}
+.vung{
+    padding: 10px 20px ;
+}
+
+
