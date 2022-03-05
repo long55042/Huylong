@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    width: 1000px;
+    background: #fff;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background: darkgray;
+    color: #fff;
+}
+
+header .menu {
+    height: 50px;
+    background: gray;
+    display: flex;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+li {
+    list-style: none;
+    margin-left: 40px;
+    
+}
+
+li a {
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Times New Roman';
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    position: absolute;
+    z-index: 10;
+    left: 25%;
+    top: 40%;
+    font-family: 'Times New Roman';
+}
+
+.control {
+    position: absolute;
+    width: 95%;
+    top: 30%;
+    left: 2.5%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    opacity: 1.5;
+}
+
+.control a {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+.control a::before {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-left: 10px solid #eee;
+    border-bottom: 10px solid #eee;
+    transform: rotate(45deg);
+    right: 7px;
+    border-radius: 3px;
+    opacity: 0.5    ;
+}
+
+.control a:nth-child(2):before {
+    transform: rotate(225deg);
+    left: 7px;
+}
+.slideshow {
+    position: absolute;
+    top: 95%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.slideshow div {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    top: 450px;
+    background: rgb(206, 204, 204);
+    display: flex;
+    padding-top: 30px;
+
+}
+ p {
+    text-align: justify;
+    font-family: 'Times New Roman';
+ }
+h2 {
+    color: red;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman';
+}
+.Lorem1 {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-left: 20px;
+}
+.Lorem2 {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+.Lorem3 {
+    width: 300px;
+    height: 100%;
+    float: left;
+    margin-left: 30px;
+}
+
